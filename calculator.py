@@ -4,6 +4,8 @@ from tkinter import messagebox
 
 root = Tk()
 
+# root.iconbitmap(default=r'python.ico')
+
 # Icon of window
 icon = PhotoImage(file="images/icon.ico")
 root.iconphoto(False, icon)
